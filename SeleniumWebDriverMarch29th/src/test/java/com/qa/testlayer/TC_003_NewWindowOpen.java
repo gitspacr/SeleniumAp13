@@ -21,6 +21,7 @@ public class TC_003_NewWindowOpen extends LaunchBrowser{
 		lp.clickOnskipSignin();
 		wp=new WindowHandlePage(driver);
 		wp.hoverOnMenu();
+		wp.winSubMenu();
 		screenshot(driver,"windowScreenDisplay");
 		log.info("Windows screendisplay");
 		wp.clickOnNewWindow();

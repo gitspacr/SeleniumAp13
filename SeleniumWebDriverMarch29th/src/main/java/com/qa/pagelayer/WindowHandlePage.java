@@ -14,6 +14,7 @@ public class WindowHandlePage extends LaunchBrowser {
 	
 	WebDriver driver;
 	String parentWindow;
+	Actions action;
 	
 	@FindBy (xpath="//a[text()='SwitchTo']")
 	WebElement switchTomenu;
@@ -37,8 +38,13 @@ public class WindowHandlePage extends LaunchBrowser {
 	
 	
 	public void hoverOnMenu() {
-		Actions action=new Actions(driver);
+		action=new Actions(driver);
 		action.moveToElement(switchTomenu).build().perform();
+		
+	}
+	
+	public void winSubMenu() {
+		
 		action.click(winLink).build().perform();
 		String currentURL= driver.getCurrentUrl();
 		System.out.println(currentURL);

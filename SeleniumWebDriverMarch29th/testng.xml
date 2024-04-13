@@ -7,9 +7,10 @@
 	<test name="Test">
 		<classes>
 			<!--      <class name="com.qa.testlayer.TC_001_Registrationform"/>
--->
+
 			<class name="com.qa.testlayer.TC_002_WindowsHandle" />
-			<class name="com.qa.testlayer.TC_003_NewWindowOpen" />
+			<class name="com.qa.testlayer.TC_003_NewWindowOpen" />-->
+			<class name="com.qa.testlayer.TC_004_promptAlert" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
