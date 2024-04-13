@@ -1,0 +1,7 @@
+com\qa\pagelayer\LandingPage.class
+com\qa\testdata\ReadDataFromExcel.class
+com\qa\reports\ReportingTest.class
+com\qa\pagelayer\WindowHandlePage.class
+com\qa\testbase\LaunchBrowser.class
+com\qa\utilities\ReadConfig.class
+com\qa\pagelayer\RegistrationPage.class
